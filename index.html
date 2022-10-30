@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProCatalog — онлайн-каталог товаров.</title>    
+    <link rel="stylesheet" href="style/css/style.css" type="text/css">
+    <link rel="stylesheet" href="style/css/style_main.css" type="text/css">
+    <link rel="stylesheet" href="style/css/style_mobile.css" type="text/css">
+    <link rel="icon" href="images/icon.png" type="image/png">
+</head>
+<body>
+
+
+    <div class="wrapper">
+
+        <header class="header">
+
+            <div class="header_top">
+
+                <div class="container">
+                    
+                    <div class="header_top_logo">
+
+                        <a href="index.html"><img float src="images/logo.png" alt="ProCatalog" title="ProCatalog" width="50px"> <span style="color: white; font-size: 40px;"><span style="color: #ff5100;">Pro</span>Catalog</span></a>
+    
+                    </div>
+
+                  
+
+    
+                    <div class="header_top_nav">
+
+                        
+                       
+                        <ul class="navbar">                            
+                            <li><a href="#" onclick="openAccountBlock()">Аккаунт</a></li>
+                            <li><a href="pages/notebook.html">Ноутбуки</a></li>
+                            <li><a href="pages/tablet.html">Планшеты</a></li>
+                            <li><a href="pages/smartphone.html">Смартфоны</a></li>
+                            <li><a href="pages/contacts.html">Контакты</a>  </li>
+
+                            
+                        </ul>                  
+    
+                    </div>
+
+                </div>
+
+        
+
+
+            </div>
+
+
+            <div class="header_bottom">
+
+
+                <div class="slider">
+                    <div class="slider_line">
+
+                        <div class="slider_block"><img src="images/slider_img1.jpg" alt="AirPods Pro" title="AirPods Pro" width="100%" height="100%"></div>
+                        <div class="slider_block"><img src="images/slider_img2.jpg" alt="MacBook Pro" title="MacBook Pro" width="100%" height="100%"></div>
+                        <div class="slider_block"><img src="images/slider_img3.jpg" alt="iPhone 12 Pro" title="iPhone 12 Pro" width="100%" height="100%"></div>
+                        <div class="slider_block"><img src="images/slider_img4.jpg" alt="MacBook Pro" title="MacBook Pro" width="100%" height="100%"></div>
+                        <div class="slider_block"><img src="images/slider_img5.jpg" alt="iPhone 12 Pro" title="iPhone 12 Pro" width="100%" height="100%"></div>
+                      
+                    </div>
+
+                    <div class="slider_dots">
+                        
+                        <div class="dot dot_active"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+
+                    </div>
+
+                    <button class="slider_button_prev slider_button_style" onclick="prevSlide();">&#10094</button>
+                    <button class="slider_button_next slider_button_style" onclick="nextSlide();" >&#10095</button>
+
+                 </div> 
+
+
+
+
+            </div>
+
+            
+
+            <div class="account hidden_block">
+
+                <div class="account_form">
+
+                    <div class="btn_closse" onclick="openAccountBlock()">
+                        <img src="images/icon_close.png" alt="Закрыть" title="Закрыть" width="35px">
+                    </div>
+
+                    
+
+                    <div class="account_nav">
+                        <button class="btn_login account_nav_btn_style account_nav_btn_style_active" onclick="openLoginBlock()">Вход</button>
+                        <button class="btn_regisration account_nav_btn_style" onclick="openRegisrationBlock()">Регистрация</button>
+                    </div>
+
+
+
+
+                    <div class="login_form">
+
+                        <form action="" method="get" target="_self">
+
+                            <label for="email">Введите электронную почту:</label>   
+                            <input name="email" type="email" placeholder="E-mail">                   
+                            <label for="password">Введите пароль:</label>
+                            <input name="password" type="password" placeholder="Пароль">
+
+                            <div class="submit_btn">
+                                <input name="submit" type="submit" value="Войти">
+                            </div>
+
+                        </form>
+
+                    </div>
+                  
+                    
+                
+
+                    <div class="registration_form hidden_block">
+
+                        <form action="" method="get" target="_self">
+
+                            <label for="first_name">Введите ФИО:</label>  
+                            <input name="first_name" type="text" placeholder="ФИО">   
+
+                            <label for="email">Введите электронную почту:</label>   
+                            <input name="email" type="email" placeholder="E-mail">  
+
+                            <label for="password">Введите пароль:</label>
+                            <input name="password" type="password" placeholder="Пароль">
+
+                            <label for="password">Введите пароль еще раз:</label>
+                            <input name="password" type="password" placeholder="Пароль">
+
+                            <div class="submit_btn">
+                                <input name="submit" type="submit" value="Войти">
+                            </div>
+
+                        </form>
+                        
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+            
+
+        </header>
+
+        <main class="main">
+
+            <div class="notebook_section">
+
+                <div class="container">                    
+
+                    <div class="notebook_info">
+                        <span class="style_text_name">НОУТБУКИ</span>                                             
+                        <br>
+                        <span class="style_text_paragraph1">Сегодня на рынке представлено огромное количество техники. Неудивительно, что в этом разнообразии, выбор ноутбука — занятие, которое требует изрядных интеллектуальных сил и времени.</span>
+                        <br>
+                        <span class="style_text_paragraph2">Чтобы минимизировать ваши моральные и материальные потери, подробно расскажем какой ноутбук выбрать в 2022 году!</span>
+                        
+                        <div class="notebook_button_details">
+                            <a class="style_button_details" href="pages/notebook.html">Подробнее</a>
+                        </div>
+
+                    </div>
+
+                    <div class="notebook_img">
+                        <img src="images/notebook_logo.png" alt="Ноутбуки" title="Ноутбуки" width="100%">
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+
+            <div class="smartphone_section">
+
+                <div class="container">
+
+                    <div class="smartphone_img">
+                        <img src="images/smartphone_logo.png" alt="Смартфоны" title="Смарфоны" width="100%">
+
+                    </div>
+
+                    <div class="smartphone_info">
+                        <span class="style_text_name">Смарфоны</span>                                             
+                        <br>
+                        <span class="style_text_paragraph1">В 2000 году компания Ericsson выпустила новый телефон Ericsson R380s. Это был небольшой девайс, фишками которого стали сенсорный экран и откидная крышка. Перед рекламщиками стояли задачи: подчеркнуть интеллектуальность новой модели и максимально емко донести ее до пользователей. Именно так Ericsson R380s получил название «смартфон», т.е. «умный телефон».</span>
+                        <br>
+                        <span class="style_text_paragraph2">Сегодня смартфонов стало настолько много, что сделать умный выбор становится все сложнее. Как не промахнуться и найти нужный гаджет — рассказываем в нашей статье.</span>
+                        
+                        <div class="smartphone_button_details">
+                            <a class="style_button_details" href="pages/smartphone.html">Подробнее</a>
+                        </div>
+
+                    </div>
+
+
+                    
+
+                    
+                </div>
+
+            </div>
+
+
+
+            <div class="ipads_section">
+
+                <div class="container">                    
+
+                    <div class="ipads_info">
+                        <span class="style_text_name">Планшеты</span>                                             
+                        <br>
+                        <span class="style_text_paragraph1">Планшет или «таблетка» — это нечто среднее между телефоном и компьютером. Такой гаджет отличается компактными размерами и внушительным функционалом. С его помощью можно смотреть разнообразный контент, читать книги, серфить в интернете, общаться в соцсетях, учится, играть и даже работать.Это универсальное устройство используют бизнесмены, творческие люди, студенты, родители и даже бабушки с дедушками.</span>
+                        <br>
+                        <span class="style_text_paragraph2">Обычно покупатели слабо представляют себе, какой именно девайс им необходим. В нашем подробном гайде мы расскажем, как правильно выбрать хороший планшет и по каким характеристикам оценивать его качество.</span>
+                        
+                        <div class="ipads_button_details">
+                            <a class="style_button_details" href="pages/tablet.html">Подробнее</a>
+                        </div>
+
+                    </div>
+
+                    <div class="ipads_img">
+                        <img src="images/ipads_logo.png" alt="Планшеты" title="Планшеты" width="100%">
+                    </div>
+
+
+                    
+
+                    
+                </div>
+
+            </div>
+
+
+
+            <div class="shop_section">
+
+                <span style="font-size: 25px; color: #ff5100;"><span style="font-size: 23px;">&#10023</span> <span style="font-size: 25px;">&#10023</span> <span style="font-size: 27px;">&#10023</span> Лучшие магазины: <span style="font-size: 27px;">&#10023</span> <span style="font-size: 25px;">&#10023</span> <span style="font-size: 23px;">&#10023</span></span>
+
+                <div class="shop_slider">
+                    <div class="shop_slider_line">
+
+                        <div class="shop_block1 style_shop_block">
+                            <span class="style_shop_block_name">21vek.by</span>
+                            <br>
+                            <img src="images/logo_21vek.jpg" alt="21vek.by" title="21vek.by" width="90%">
+                            <a class="style_shop_block_button" target="_blank" href="https://www.21vek.by/">Перейти в Магазин</a>
+
+
+                        </div>
+
+                        <div class="shop_block1 style_shop_block">
+                            <span class="style_shop_block_name">5element.by</span>
+                            <br>
+                            <img src="images/logo_5element.jpg" alt="5element.by" title="5element.by" width="90%">
+                            <a class="style_shop_block_button" target="_blank" href="https://5element.by/">Перейти в Магазин</a>
+
+
+                        </div>
+
+                        <div class="shop_block1 style_shop_block">
+                            <span class="style_shop_block_name">Zeon.by</span>
+                            <br>
+                            <img src="images/logo_zeon.jpg" alt="Zeon.by" title="Zeon.by" width="90%">
+                            <a class="style_shop_block_button" target="_blank" href="https://www.777555.by/">Перейти в Магазин</a>
+
+
+                        </div>
+
+                        <div class="shop_block1 style_shop_block">
+                            <span class="style_shop_block_name">Imarket.by</span>
+                            <br>
+                            <img src="images/logo_imarket.jpg" alt="Imarket.by" title="Imarket.by" width="90%">
+                            <a class="style_shop_block_button" target="_blank" href="https://imarket.by/">Перейти в Магазин</a>
+
+                        </div>
+
+                        <div class="shop_block1 style_shop_block">
+                            <span class="style_shop_block_name">Xistore.by</span>
+                            <br>
+                            <img src="images/logo_xistore.jpg" alt="Xistore.by" title="Xistore.by" width="90%">
+                            <a class="style_shop_block_button" target="_blank" href="https://xistore.by/">Перейти в Магазин</a>
+
+                        </div>
+
+                        <div class="shop_block1 style_shop_block">
+                            <span class="style_shop_block_name">24shop.by</span>
+                            <br>
+                            <img src="images/logo_24shop.jpg" alt="24shop.by" title="24shop.by" width="90%">
+                            <a class="style_shop_block_button" target="_blank" href="https://24shop.by/">Перейти в Магазин</a>
+
+                        </div>
+
+                        <div class="shop_block1 style_shop_block">
+                            <span class="style_shop_block_name">Texnomir.by</span>
+                            <br>
+                            <img src="images/logo_tehnomir.jpg" alt="Texnomir.by" title="Texnomir.by" width="90%">
+                            <a class="style_shop_block_button" target="_blank" href="http://www.texnomir.by/">Перейти в Магазин</a>
+
+                        </div>
+
+
+                    </div>
+
+
+                    <button class="shop_slider_button_prev shop_slider_button_style" onclick="shopSliderPrev();">&#10094</button>
+                    <button class="shop_slider_button_next shop_slider_button_style" onclick="shopSliderNext();">&#10095</button>
+
+                </div>
+
+
+
+
+                
+            </div>
+
+
+            <div class="button_up" onclick='upTop()'>
+                <img src="images/icon_btn_up.png" alt="На верх" title="На верх" width="100%">
+
+            </div>
+
+
+
+
+        </main>
+
+        <footer class="footer">
+
+            <div class="footer_subscription">
+
+                <div class="footer_subscription_text">
+
+                    <img style="float:left; margin-right: 20px;" src="images/logo_subscription.png" alt="subscription" title="Подпишитесь на нашу рассылку" width="40px">
+                    <span>Подпишитесь и <strong>получайте больше скидок</strong> <br> на весь ассортимент наших товаров!</span>
+                    
+                </div>
+
+                <div class="footer_subscription_btn">
+
+                    <input class="input_subscription" type="text" placeholder="Введите почту">
+                    <button class="button_subscription">Подписаться</button>
+
+                </div>                           
+                
+            </div>
+
+            <div class="container">
+            
+                <div class="footer_main">
+
+                    <div class="contacts">                     
+                                                
+                        <ul>
+                            <li>Контактная информация:</li>
+                            <li><img src="images/logo_phone.png" alt="phone" title="Наш номер телефона" width="15px"> +375 (xx) 0-000-000</li>
+                            <li><img src="images/logo_a1.png" alt="a1" title="Наш номер телефона A1" width="15px"> +375 (xx) 0-000-000</li>
+                            <li><img src="images/logo_email.png" alt="email" title="Наша электронная почта" width="15px"> pro@procatalog.by</li>
+                            <li><img src="images/logo_address.png" alt="address" title="Наш адрес" width="15px"> Беларусь, Гомель, Речицкий проспект 80, оф.123</li>
+                        </ul>
+    
+    
+                    </div>
+
+
+                    <div class="catalog">                     
+                                                
+                        <ul>
+                            <li>Каталог:</li>
+                            <li><a href="pages/notebook.html"><img style="float: left;" src="images/icon_notebook.png" alt="Ноутбуки" title="Ноутбуки" width="20px"> Ноутбуки</a></li>                            
+                            <li><a href="pages/smartphone.html"><img style="float: left;" src="images/icon_smartphone.png" alt="Смартфоны" title="Смартфоны" width="20px">Смартфоны</a></li>
+                            <li><a href="pages/tablet.html"><img style="float: left;" src="images/icon_tablet.png" alt="Планшеты" title="Планшеты" width="20px">Планшеты</a></li>
+                           
+                        </ul>
+    
+    
+                    </div>
+
+
+
+    
+                    <div class="payment">                       
+
+    
+                       <ul>
+                            <li>Способы оплаты:</li>
+                            
+                            <li><img src="images/logo_mastercard1.png" alt="Mastercard" title="Mastercard" width="55px"><img src="images/logo_visa1.png" alt="Visa" title="Visa" width="70px"><img src="images/logo_visa2.png" alt="Visa" title="Visa" width="60px"></li>
+                           
+                            <li><img src="images/logo_erip.png" alt="Erip" title="Ерип" width="100px"></li>
+                            <li><img src="images/logo_webpay.png" alt="Webpay" title="Webpay" width="150px"></li>
+                            
+                        </ul>
+    
+    
+    
+                    </div>
+    
+    
+    
+    
+                    <div class="mobile_app">                       
+    
+                        <ul>
+                            <li>Мобильные приложения:</li>
+                            <li><a href="https://play.google.com/" target="_blank"><img src="images/logo_google_play.png" alt="Доступно в Google Play" title="Доступно в Google Play" width="140px"></a></li>
+                            <li><a href="https://www.apple.com/ru/app-store/" target="_blank"><img src="images/logo_app_store.png" alt="Доступно в App Store" title="Доступно в App Store" width="140px"></a></li>
+                            <li><a href="https://consumer.huawei.com/by/mobileservices/appgallery/" target="_blank"><img src="images/logo_app_gallery.png" alt="Доступно в AppGallery" title="Доступно в AppGallery" width="140px"></a></li>
+                        </ul>
+                        
+                    </div>  
+
+
+
+
+                </div>
+
+
+                <div class="social_networks">
+
+                    <a class="social_networks_style youtube" href="https://www.youtube.com/" target="_blank"><img src="images/logo_youtube2.png" alt="YouTube" title="YouTube" width="30px"></a>
+                    <a class="social_networks_style vk" href="https://vk.com/" target="_blank"><img src="images/logo_vk2.png" alt="Vkontakte" title="Vkontakte" width="30px"></a>
+                    <a class="social_networks_style inst" href="https://www.instagram.com/" target="_blank"><img src="images/logo_instagram2.png" alt="Instagram" title="Instagram" width="30px"></a>
+                    <a class="social_networks_style telegram" href="https://telegram.org/" target="_blank"><img src="images/logo_telegram2.png" alt="Telegram" title="Telegram" width="30px"></a>
+                    <a class="social_networks_style viber" href="https://www.viber.com/ru/" target="_blank"><img src="images/logo_viber2.png" alt="Viber" title="Viber" width="30px"></a>
+                    
+                </div>
+    
+                <div class="footer_info">
+    
+                    <span>2022 &#169; ProCatalog — онлайн-каталог товаров. <br> Все права защищены.</span>
+    
+                </div>   
+
+
+
+
+            </div>
+
+            
+
+               
+
+
+        </footer>
+
+
+
+        
+
+    </div>
+
+<script src="js/script.js"></script>
+
+
+
+    
+</body>
+</html>

@@ -1,0 +1,273 @@
+@media screen  and (max-width:1300px){
+
+    .header .container{        
+        width: 95vw;
+         
+     }
+
+    .footer .container{
+        width: 95vw;
+    }
+
+    .notebook_section .container{
+        width: 95vw;
+    }
+
+    .smartphone_section .container{
+        width: 95vw;
+    }
+
+    .ipads_section .container{
+        width: 95vw;
+    }
+
+    .shop_slider{
+        width: 786px;
+    }
+
+    .main .container{
+        width: 95vw;
+    }
+    .container_contacts{
+        width: 95vw;
+
+    }
+
+    .our_contacts{
+        width: 50vw;
+    }
+    
+    .info_of_catalog{
+        width: 45vw;
+    }
+
+
+
+
+    
+}
+
+
+@media screen  and (max-width:1100px){
+
+    .header_top{
+        height: max-content;
+    }
+
+    
+
+    .footer_subscription{
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer_subscription img{
+        display: none;
+    }
+
+   
+    .footer_main{              
+        display: none;
+        
+    }
+
+    .container_contacts{
+        flex-direction: column;
+        
+        
+
+    }
+
+    .info_of_catalog{
+        width: 95vw;
+        border-right: 0px solid rgb(0, 0, 0);
+        padding: 20px 0px;
+    }
+
+    .our_contacts{
+        width: 95vw;
+    }
+
+    
+}
+
+@media screen  and (max-width:950px){
+
+    
+    .shop_slider{
+        width: 524px;
+    }
+    
+    .header .container{
+        display: block;
+        
+         
+     }
+     .header_top{
+        text-align: center;
+        
+    }
+
+
+    .catalog_block_visible{
+        display: block;
+        
+    }
+
+    .catalog_block_visible_img{
+        width: 80vw;
+        margin: 0 auto;
+    }
+
+    .img_nav{
+        width: 15vw;
+    }
+
+    .img_show{
+        width: 55vw;
+    }
+
+    .catalog_block_visible_info{
+        margin: 0 auto;
+        width: 80vw;
+        padding: 10px 0;
+        border-left: 0px solid rgb(146, 146, 146);
+        border-right: 0px solid rgb(146, 146, 146);
+        border-top: 1px solid rgb(146, 146, 146);
+        border-bottom: 1px solid rgb(146, 146, 146);
+    }
+
+    .catalog_block_visible_price{
+        width: 80vw;
+        margin: 0 auto;
+    }
+
+    .product_characteristics_block1{
+        flex-direction: column;
+        
+    }
+    .product_characteristics_block2{
+        flex-direction: column;
+        
+    }
+    .product_characteristics_block3{
+        flex-direction: column;
+        
+    }
+
+    .product_characteristics_block{
+        width: 90vw;
+    }
+
+   
+   
+
+    .product_in_shop_block{
+        flex-direction: column;
+    }
+
+    .product_in_shop_block_logo{
+        width: 30vw;
+    }
+    
+    .product_in_shop_block_info{
+        width: 80vw;
+    }
+
+    .product_in_shop_block_btn{
+        width: 80vw;
+    }
+}
+
+
+
+
+@media screen  and (max-width:650px){
+
+    .header_top{
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        
+    }
+
+    .navbar a{
+        width: 300px;
+        margin: 5px;
+        text-decoration: none;
+        font-size: 18px;           
+        color: #ff5100;
+        background-color:#000000;
+        border: 1px solid #ff5100;
+        border-radius: 7px;
+        box-shadow: 0 0 10px #ff5100;
+        
+
+    }
+
+    .navbar a:hover{
+        color:#000000;
+        background-color:#ff5100;
+        border: 1px solid #000000;
+    }
+
+    .notebook_section .container{
+        flex-direction: column-reverse;
+    }
+    .notebook_info{
+        width: 90vw;
+    }
+
+    .notebook_img{
+        width: 80vw;
+    }
+
+    .smartphone_section .container{
+        flex-direction: column;
+    }
+
+    .smartphone_info{
+        width: 90vw;
+    }
+
+    .smartphone_img{
+        width: 80vw;
+    }
+
+    .ipads_section .container{
+        flex-direction: column-reverse;
+    }
+
+    .ipads_info{
+        width: 90vw;
+    }
+
+    .ipads_img{
+        width: 80vw;
+    }
+
+
+    .shop_slider{
+        width: 262px;
+    }
+
+    .header_bottom{
+        display: none;
+    }
+    
+    .our_contacts_map iframe {
+        width: 300px;
+    }
+
+
+    .account_form{
+        width: 350px;
+    }
+
+    
+}
+

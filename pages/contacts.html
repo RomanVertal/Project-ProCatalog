@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>   
+    <link rel="stylesheet" href="../style/css/style.css" type="text/css"> 
+    <link rel="stylesheet" href="../style/css/style_contacts.css" type="text/css">
+    <link rel="stylesheet" href="../style/css/style_mobile.css" type="text/css">
+    <link rel="icon" href="../images/icon.png" type="image/png">
+</head>
+<body>
+
+
+    <div class="wrapper">
+
+        <header class="header">
+
+            <div class="header_top">
+
+                <div class="container">
+                    
+                    <div class="header_top_logo">
+
+                        <a href="../index.html"><img float src="../images/logo.png" alt="ProCatalog" title="ProCatalog" width="50px"> <span style="color: white; font-size: 40px;"><span style="color: #ff5100;">Pro</span>Catalog</span></a>
+    
+                    </div>
+
+
+
+    
+                    <div class="header_top_nav">
+                       
+                        <ul class="navbar">
+                            <li><a href="#" onclick="openAccountBlock()">Аккаунт</a></li>
+                            <li><a href="notebook.html">Ноутбуки</a></li>
+                            <li><a href="tablet.html">Планшеты</a></li>
+                            <li><a href="smartphone.html">Смартфоны</a></li>
+                            <li><a id="navbar_active" href="contacts.html">Контакты</a>  </li>
+                        </ul>                  
+    
+                    </div>
+
+                </div>
+
+                
+
+
+            </div>
+
+
+            <div class="header_bottom">
+
+
+                <div class="slider">
+                    <div class="slider_line">
+
+                        <div style="width: 60vw;"><img src="../images/slider_img1.jpg" alt="AirPods Pro" title="AirPods Pro" width="100%" height="100%"></div>
+                        <div style="width: 60vw;"><img src="../images/slider_img2.jpg" alt="MacBook Pro" title="MacBook Pro" width="100%" height="100%"></div>
+                        <div style="width: 60vw;"><img src="../images/slider_img3.jpg" alt="iPhone 12 Pro" title="iPhone 12 Pro" width="100%" height="100%"></div>
+                        <div style="width: 60vw;"><img src="../images/slider_img4.jpg" alt="MacBook Pro" title="MacBook Pro" width="100%" height="100%"></div>
+                        <div style="width: 60vw;"><img src="../images/slider_img5.jpg" alt="iPhone 12 Pro" title="iPhone 12 Pro" width="100%" height="100%"></div>
+                      
+                    </div>
+
+                    <div class="slider_dots">
+                        
+                        <div class="dot dot_active"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+
+                    </div>
+
+                    <button class="slider_button_prev slider_button_style" onclick="prevSlide();">&#10094</button>
+                    <button class="slider_button_next slider_button_style" onclick="nextSlide();" >&#10095</button>
+
+                 </div> 
+
+
+            </div>
+
+
+
+            <div class="account hidden_block">
+
+                <div class="account_form">
+
+                    <div class="btn_closse" onclick="openAccountBlock()">
+                        <img src="../images/icon_close.png" alt="Закрыть" title="Закрыть" width="35px">
+                    </div>
+
+                    
+
+                    <div class="account_nav">
+                        <button class="btn_login account_nav_btn_style account_nav_btn_style_active" onclick="openLoginBlock()">Вход</button>
+                        <button class="btn_regisration account_nav_btn_style" onclick="openRegisrationBlock()">Регистрация</button>
+                    </div>
+
+
+
+
+                    <div class="login_form">
+
+                        <form action="" method="get" target="_self">
+
+                            <label for="email">Введите электронную почту:</label>   
+                            <input name="email" type="email" placeholder="E-mail">                   
+                            <label for="password">Введите пароль:</label>
+                            <input name="password" type="password" placeholder="Пароль">
+
+                            <div class="submit_btn">
+                                <input name="submit" type="submit" value="Войти">
+                            </div>
+
+                        </form>
+
+                    </div>
+                  
+                    
+                
+
+                    <div class="registration_form hidden_block">
+
+                        <form action="" method="get" target="_self">
+
+                            <label for="first_name">Введите ФИО:</label>  
+                            <input name="first_name" type="text" placeholder="ФИО">   
+
+                            <label for="email">Введите электронную почту:</label>   
+                            <input name="email" type="email" placeholder="E-mail">  
+
+                            <label for="password">Введите пароль:</label>
+                            <input name="password" type="password" placeholder="Пароль">
+
+                            <label for="password">Введите пароль еще раз:</label>
+                            <input name="password" type="password" placeholder="Пароль">
+
+                            <div class="submit_btn">
+                                <input name="submit" type="submit" value="Войти">
+                            </div>
+
+                        </form>
+                        
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+
+
+
+        </header>
+
+
+
+
+
+
+
+
+
+
+        <main class="main">
+
+            <div class="container_contacts">
+
+
+                <div class="info_of_catalog">
+                    
+                    <span class="text_style_bold">ПОЧЕМУ НАШ КАТАЛОГ ?</span>
+    
+                    <ul>
+
+                        <li><img src="../images/logo_customer_focus.png" alt="Клиентоориентированность" title="Клиентоориентированность" style="float: left; margin-right: 20px; width: 70px; "> <strong>КЛИЕНТООРИЕНТИРОВАННОСТЬ</strong> <br> <br> <span> Мы стремимся обеспечить комфорт и удовлетворенность наших клиентов на всех этапах работы с ними. Ваши отзывы о нас — лучшая благодарность и показатель качественного сервиса.</span></li>
+                        <li><img src="../images/logo_competence.png" alt="Компетентность" title="Компетентность" style="float: left; margin-right: 20px; width: 70px; "><strong>КОМПЕТЕНТНОСТЬ</strong> <br><br> Наши сотрудники компетентны и мотивированы на улучшение качества обслуживания. Мы регулярно повышаем уровень профессионализма коллектива, проводя специальное обучение.</li>
+                        <li><img src="../images/logo_quality.png" alt="Качество" title="Качество" style="float: left; margin-right: 20px; width: 70px;"><strong>КАЧЕСТВО</strong> <br><br> Вся продукция, представленная в нашем онлайн-гипермаркете, имеет необходимые сертификаты и официальную гарантию сервисных центров. Мы обеспечиваем установку, настройку, гарантийное и послегарантийное обслуживание техники.</li>
+                        <li><img src="../images/logo_profitable_offer.png" alt="Выгодные предложения" title="Выгодные предложения" style="float: left; margin-right: 20px; width: 70px;"><strong>ВЫГОДНЫЕ ПРЕДЛОЖЕНИЯ</strong> <br><br> Прямые поставки, отсутствие дорогостоящих торговых залов, автоматизация рабочих процессов позволяют нам обеспечивать привлекательность цен на наши товары.</li>
+                        <li><img src="../images/logo_honesty.png" alt="Честность" title="Честность" style="float: left; margin-right: 20px; width: 70px;"><strong>ЧЕСТНОСТЬ</strong> <br><br> Мы ценим доверие клиентов и стремимся его оправдать, поэтому мы добросовестно подходим к интернет-торговле: все представленные товары реально присутствуют на складе, а цены, указанные на сайте, оперативно обновляются.</li>
+                    
+                    </ul> 
+                  
+                </div>
+
+
+                <div class="our_contacts">
+
+                
+                    <div class="our_contacts_info">
+                        <h2>Как с нами связаться:</h2>
+
+                        <h3>Телефоны:</h3>
+                        <p>+375 (xx) 0-000-000; +375 (xx) 0-000-000; +375 (xx) 0-000-000;</p>                        
+                        
+
+                        <h3>Социальные сети:</h3>
+                        <p>E-mail: pro@procatalog.by</p>
+                        <p>Viber: procatalog.by</p>
+                        <p>Telegram: procatalog.by</p>
+                        <p>Instagram: procatalog.by</p>
+                        
+
+
+                       
+
+
+                    </div>
+    
+                    <div class="our_contacts_map">
+
+                        
+                        <p><b> Адрес:</b> Беларусь, Гомель, Речицкий проспект 80, оф.123</p>
+
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2046.8148863252602!2d30.919591896684388!3d52.40510259188007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46d4420ee52c299d%3A0xac82f082a203ca76!2z0KDQtdGH0LjRhtC60LjQuSDQv9GA0L7RgdC_LiA4MCwg0JPQvtC80LXQu9GM!5e0!3m2!1sru!2sby!4v1666733281884!5m2!1sru!2sby" 
+                        width="450" 
+                        height="300" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+    
+                        
+                    </div>
+
+
+                </div>
+
+
+
+
+            </div>
+
+
+
+            <div class="button_up" onclick='upTop()'>
+                <img src="../images/icon_btn_up.png" alt="На верх" title="На верх" width="100%">
+
+            </div>
+
+
+
+
+
+
+        </main>
+
+
+        <footer class="footer">
+
+            <div class="footer_subscription">
+
+                <div class="footer_subscription_text">
+
+                    <img style="float:left; margin-right: 20px;" src="../images/logo_subscription.png" alt="subscription" title="Подпишитесь на нашу рассылку" width="40px">
+                    <span>Подпишитесь и <strong>получайте больше скидок</strong> <br> на весь ассортимент наших товаров!</span>
+                    
+                </div>
+
+                <div class="footer_subscription_btn">
+
+                    <input class="input_subscription" type="text" placeholder="Введите почту">
+                    <button class="button_subscription">Подписаться</button>
+
+                </div>                           
+                
+            </div>
+
+            <div class="container">
+            
+                <div class="footer_main">
+
+                    <div class="contacts">                     
+                                                
+                        <ul>
+                            <li>Контактная информация:</li>
+                            <li><img src="../images/logo_phone.png" alt="phone" title="Наш номер телефона" width="15px"> +375 (xx) 0-000-000</li>
+                            <li><img src="../images/logo_a1.png" alt="a1" title="Наш номер телефона A1" width="15px"> +375 (xx) 0-000-000</li>
+                            <li><img src="../images/logo_email.png" alt="email" title="Наша электронная почта" width="15px"> pro@procatalog.by</li>
+                            <li><img src="../images/logo_address.png" alt="address" title="Наш адрес" width="15px"> Беларусь, Гомель, Речицкий проспект 80, оф.123</li>
+                        </ul>
+    
+    
+                    </div>
+
+
+                    <div class="catalog">                     
+                                                
+                        <ul>
+                            <li>Каталог:</li>
+                            <li><a href="notebook.html"><img style="float: left;" src="../images/icon_notebook.png" alt="Ноутбуки" title="Ноутбуки" width="20px"> Ноутбуки</a></li>                            
+                            <li><a href="smartphone.html"><img style="float: left;" src="../images/icon_smartphone.png" alt="Смартфоны" title="Смартфоны" width="20px">Смартфоны</a></li>
+                            <li><a href="tablet.html"><img style="float: left;" src="../images/icon_tablet.png" alt="Планшеты" title="Планшеты" width="20px">Планшеты</a></li>
+                           
+                        </ul>
+    
+    
+                    </div>
+
+
+
+
+
+
+
+
+    
+                    <div class="payment">                       
+
+    
+                       <ul>
+                            <li>Способы оплаты:</li>
+                            
+                            <li><img src="../images/logo_mastercard1.png" alt="Mastercard" title="Mastercard" width="55px"><img src="../images/logo_visa1.png" alt="Visa" title="Visa" width="70px"><img src="../images/logo_visa2.png" alt="Visa" title="Visa" width="60px"></li>
+                           
+                            <li><img src="../images/logo_erip.png" alt="Erip" title="Ерип" width="100px"></li>
+                            <li><img src="../images/logo_webpay.png" alt="Webpay" title="Webpay" width="150px"></li>
+                            
+                        </ul>
+    
+    
+    
+                    </div>
+    
+    
+    
+    
+                    <div class="mobile_app">                       
+    
+                        <ul>
+                            <li>Мобильные приложения:</li>
+                            <li><a href="https://play.google.com/" target="_blank"><img src="../images/logo_google_play.png" alt="Доступно в Google Play" title="Доступно в Google Play" width="140px"></a></li>
+                            <li><a href="https://www.apple.com/ru/app-store/" target="_blank"><img src="../images/logo_app_store.png" alt="Доступно в App Store" title="Доступно в App Store" width="140px"></a></li>
+                            <li><a href="https://consumer.huawei.com/by/mobileservices/appgallery/" target="_blank"><img src="../images/logo_app_gallery.png" alt="Доступно в AppGallery" title="Доступно в AppGallery" width="140px"></a></li>
+                        </ul>
+                        
+                    </div>  
+
+
+
+
+                </div>
+
+
+                <div class="social_networks">
+
+                    <a class="social_networks_style youtube" href="https://www.youtube.com/" target="_blank"><img src="../images/logo_youtube2.png" alt="YouTube" title="YouTube" width="30px"></a>
+                    <a class="social_networks_style vk" href="https://vk.com/" target="_blank"><img src="../images/logo_vk2.png" alt="Vkontakte" title="Vkontakte" width="30px"></a>
+                    <a class="social_networks_style inst" href="https://www.instagram.com/" target="_blank"><img src="../images/logo_instagram2.png" alt="Instagram" title="Instagram" width="30px"></a>
+                    <a class="social_networks_style telegram" href="https://telegram.org/" target="_blank"><img src="../images/logo_telegram2.png" alt="Telegram" title="Telegram" width="30px"></a>
+                    <a class="social_networks_style viber" href="https://www.viber.com/ru/" target="_blank"><img src="../images/logo_viber2.png" alt="Viber" title="Viber" width="30px"></a>
+                    
+                </div>
+    
+                <div class="footer_info">
+    
+                    <span>2022 &#169; ProCatalog — онлайн-каталог товаров. <br> Все права защищены.</span>
+    
+                </div>   
+
+
+
+
+            </div>
+
+            
+
+               
+
+
+
+
+        </footer>
+
+
+
+           
+
+        
+
+    </div>
+
+<script src="../js/script.js"></script>
+
+
+
+    
+</body>
+</html>

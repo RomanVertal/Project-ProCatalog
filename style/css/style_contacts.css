@@ -1,0 +1,93 @@
+.main{
+    background-color: #d4d4d4;
+}
+.container_contacts{
+    display: flex;
+    width: 80vw;
+    margin: 0 auto;    
+    box-shadow: 0 2px 8px #000000;
+    
+    
+}
+
+
+/*------------------------------------------CONTACTS---------------------------------------------*/
+
+.text_style_bold{    
+    font-size: 24px;
+    font-weight: bold;
+    
+    
+}
+
+
+.our_contacts{        
+    background-color: white;
+    text-align: center;
+    width: 40vw;
+
+    
+    
+    
+}
+
+.our_contacts_info{
+    border: 0px solid red;
+    
+
+}
+
+
+
+.our_contacts_map{
+    border: 0px solid red;
+    
+
+}
+
+
+
+
+
+
+/*------------------------------------------END CONTACTS---------------------------------------------*/
+
+
+
+/*---------------------- INFO OF SHOP----------------- */
+.info_of_catalog{
+    background-color: white;
+    width: 40vw;
+    border-right: 2px solid rgb(189, 189, 189);
+    padding: 20px;
+   
+}
+
+
+.info_of_catalog ul{
+    margin-bottom: 0px;
+    padding-left: 0px;
+    padding-bottom: 20px;
+}
+
+
+.info_of_catalog li{
+    list-style: none;
+    
+    padding: 10px;
+    
+}
+
+.info_of_catalog li:hover{
+    background-color: #f08257;
+    border-radius: 30px;
+    transition: 0.5s;
+    
+    
+}
+
+.text_right{
+    margin-left: auto;
+}
+
+/*---------------------- END INFO OF SHOP----------------- */

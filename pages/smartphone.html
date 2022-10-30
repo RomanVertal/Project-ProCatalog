@@ -1,0 +1,1806 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Смарфоны</title> 
+    <link rel="stylesheet" href="../style/css/style.css" type="text/css">   
+    <link rel="stylesheet" href="../style/css/style_catalog.css" type="text/css">
+    <link rel="stylesheet" href="../style/css/style_mobile.css" type="text/css">
+    <link rel="icon" href="../images/icon.png" type="image/png">
+</head>
+<body>
+
+
+    <div class="wrapper">
+
+        <header class="header">
+
+            <div class="header_top">
+
+                <div class="container">
+                    
+                    <div class="header_top_logo">
+
+                        <a href="../index.html"><img float src="../images/logo.png" alt="ProCatalog" title="ProCatalog" width="50px"> <span style="color: white; font-size: 40px;"><span style="color: #ff5100;">Pro</span>Catalog</span></a>
+    
+                    </div>
+
+
+
+    
+                    <div class="header_top_nav">
+                       
+                        <ul class="navbar">
+                            <li><a href="#" onclick="openAccountBlock()">Аккаунт</a></li>
+                            <li><a href="notebook.html">Ноутбуки</a></li>
+                            <li><a href="tablet.html">Планшеты</a></li>
+                            <li><a id="navbar_active" href="smartphone.html">Смартфоны</a></li>
+                            <li><a href="contacts.html">Контакты</a>  </li>
+                        </ul>                  
+    
+                    </div>
+
+                </div>
+
+                
+
+
+
+
+
+
+
+            </div>
+
+
+            <div class="header_bottom">
+
+
+                <div class="slider">
+                    <div class="slider_line">
+
+                        <div style="width: 60vw;"><img src="../images/slider_img1.jpg" alt="AirPods Pro" title="AirPods Pro" width="100%" height="100%"></div>
+                        <div style="width: 60vw;"><img src="../images/slider_img2.jpg" alt="MacBook Pro" title="MacBook Pro" width="100%" height="100%"></div>
+                        <div style="width: 60vw;"><img src="../images/slider_img3.jpg" alt="iPhone 12 Pro" title="iPhone 12 Pro" width="100%" height="100%"></div>
+                        <div style="width: 60vw;"><img src="../images/slider_img4.jpg" alt="MacBook Pro" title="MacBook Pro" width="100%" height="100%"></div>
+                        <div style="width: 60vw;"><img src="../images/slider_img5.jpg" alt="iPhone 12 Pro" title="iPhone 12 Pro" width="100%" height="100%"></div>
+                      
+                    </div>
+
+                    <div class="slider_dots">
+                        
+                        <div class="dot dot_active"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+
+                    </div>
+
+                    <button class="slider_button_prev slider_button_style" onclick="prevSlide();">&#10094</button>
+                    <button class="slider_button_next slider_button_style" onclick="nextSlide();" >&#10095</button>
+
+                 </div> 
+
+
+            </div>
+
+
+            <div class="account hidden_block">
+
+                <div class="account_form">
+
+                    <div class="btn_closse" onclick="openAccountBlock()">
+                        <img src="../images/icon_close.png" alt="Закрыть" title="Закрыть" width="35px">
+                    </div>
+
+                    
+
+                    <div class="account_nav">
+                        <button class="btn_login account_nav_btn_style account_nav_btn_style_active" onclick="openLoginBlock()">Вход</button>
+                        <button class="btn_regisration account_nav_btn_style" onclick="openRegisrationBlock()">Регистрация</button>
+                    </div>
+
+
+
+
+                    <div class="login_form">
+
+                        <form action="" method="get" target="_self">
+
+                            <label for="email">Введите электронную почту:</label>   
+                            <input name="email" type="email" placeholder="E-mail">                   
+                            <label for="password">Введите пароль:</label>
+                            <input name="password" type="password" placeholder="Пароль">
+
+                            <div class="submit_btn">
+                                <input name="submit" type="submit" value="Войти">
+                            </div>
+
+                        </form>
+
+                    </div>
+                  
+                    
+                
+
+                    <div class="registration_form hidden_block">
+
+                        <form action="" method="get" target="_self">
+
+                            <label for="first_name">Введите ФИО:</label>  
+                            <input name="first_name" type="text" placeholder="ФИО">   
+
+                            <label for="email">Введите электронную почту:</label>   
+                            <input name="email" type="email" placeholder="E-mail">  
+
+                            <label for="password">Введите пароль:</label>
+                            <input name="password" type="password" placeholder="Пароль">
+
+                            <label for="password">Введите пароль еще раз:</label>
+                            <input name="password" type="password" placeholder="Пароль">
+
+                            <div class="submit_btn">
+                                <input name="submit" type="submit" value="Войти">
+                            </div>
+
+                        </form>
+                        
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+        </header>
+
+
+
+
+
+
+
+
+
+
+        <main class="main">
+
+            <div class="container">
+
+                <div class="catalog_block">
+
+                    <div class="catalog_block_name">
+                        Смартфон APPLE iPhone 13 Pro Max 256GB Gold
+                    </div>
+
+                    <div class="catalog_block_visible">
+    
+                        <div class="catalog_block_visible_img">
+
+                            <div class="img_nav">
+
+                                <img class="img_nav_btn_block1 img_nav_active" src="../images/iphone_13promax_gold1.jpg" alt="Iphone 13 ProMax" title="Iphone 13 ProMax" width="100%">
+                                <img class="img_nav_btn_block1" src="../images/iphone_13promax_gold2.jpg" alt="Iphone 13 ProMax" title="Iphone 13 ProMax" width="100%">
+                                <img class="img_nav_btn_block1" src="../images/iphone_13promax_gold3.jpg" alt="Iphone 13 ProMax" title="Iphone 13 ProMax" width="100%">
+                                <img class="img_nav_btn_block1" src="../images/iphone_13promax_gold4.jpg" alt="Iphone 13 ProMax" title="Iphone 13 ProMax" width="100%">
+
+                            </div>
+
+                            <div class="img_show">
+
+                                <img class="img_show_block1" src="../images/iphone_13promax_gold1.jpg" alt="Iphone 13 ProMax" title="Iphone 13 ProMax" width="100%">
+                                <img class="img_show_block1 img_invisible" src="../images/iphone_13promax_gold2.jpg" alt="Iphone 13 ProMax" title="Iphone 13 ProMax" width="100%">
+                                <img class="img_show_block1 img_invisible" src="../images/iphone_13promax_gold3.jpg" alt="Iphone 13 ProMax" title="Iphone 13 ProMax" width="100%">
+                                <img class="img_show_block1 img_invisible" src="../images/iphone_13promax_gold4.jpg" alt="Iphone 13 ProMax" title="Iphone 13 ProMax" width="100%">
+
+                            </div>
+
+
+
+                            
+                            
+                        </div>
+    
+                        <div class="catalog_block_visible_info">
+
+                            <span class="characteristics_info">Основные характеристики:</span>
+                            <br><br>
+                            <span class="characteristics_name">Экран:</span> <span class="characteristics_value">6.7 " 1284x2778 пикселей, OLED</span>
+                            <br>
+                            <span class="characteristics_name">Процессор:</span> <span class="characteristics_value">Apple A15 Bionic</span>
+                            <br>
+                            <span class="characteristics_name">Память:</span> <span class="characteristics_value">ОЗУ 6 ГБ , 256 ГБ</span>
+                            <br>
+                            <span class="characteristics_name">Формат SIM-карты:</span> <span class="characteristics_value">Nano + eSIM</span>
+                            <br>
+                            <span class="characteristics_name">Количество мегапикселей камеры:</span> <span class="characteristics_value">12 Мп</span>
+                            
+                        </div>
+    
+                        <div class="catalog_block_visible_price">
+                            <span class="small_text">В наличии у шести продовцов</span>                            
+                            <span class="bold_text">от 5199р</span>
+                        </div>
+    
+    
+    
+    
+    
+    
+                    </div>
+    
+                    <div class="catalog_block_invisible1 catalog_block_invisible_style">
+
+                        <div class="catalog_block_invisible_nav">
+                            <button class="button_product_description_block1 catalog_block_nav_style_button catalog_block_nav_style_button_active" onclick="productDescriptionVisible(productDescriptionBlock1,productCharacteristicsBlock1,buttonProductDescriptionBlock1,buttonProductCharacteristicsBlock1)">О товаре</button>
+                            <button class="button_product_characteristics_block1 catalog_block_nav_style_button" onclick="productCharacteristicsVisible(productDescriptionBlock1,productCharacteristicsBlock1,buttonProductDescriptionBlock1,buttonProductCharacteristicsBlock1)">Характеристики</button>
+
+                        </div>
+
+
+
+
+                        <div class="product_description_block1 product_description_style">
+
+                            <p>APPLE iPhone 13 Pro Max 256GB Gold – айфон с мощной системой камер, красочным OLED-дисплеем и быстрым процессором. Модель имеет корпус из хирургической стали, панель Ceramic Shield и высокую степень влагозащиты, поэтому обладает высокой прочностью.</p>
+                            <p>Система камер Pro</p>
+                            <p>В iPhone 13 Pro Max камера снимает еще лучше благодаря тому, что в ней улучшена аппаратная часть.</p>
+                            <p>Сверхширокоугольный модуль получил обновленный объектив, увеличенную диафрагму, более быструю матрицу и мощный автофокус. Панорамные фото и кадры микромира с расстояния 2 см от объекта отличаются высоким качеством даже в условиях плохого освещения.</p>
+                            <p>Широкоугольная камера с увеличенной диафрагмой и большой матрицей собирает много света, поэтому ваши фото будут идеальными.</p>
+                            <p>Телефотомодуль с ночным режимом имеет фокусное расстояние в 77 мм и трехкратный оптический зум. Он отлично справляется с портретами и видео издалека.</p>
+                            <p>iPhone 13 Pro Max получил новый режим съемки – «Киноэффект». С ним вы сможете плавно переводить фокус с одного объекта на другой и красиво размывать задний план. Режим поддерживает Dolby Vision HDR и его можно использовать на всех трех модулях.</p>
+                            <p>Дисплей Super Retina XDR</p>
+                            <p>Айфон имеет OLED-экран с диагональю 6.7". Матрица обладает высокой плотностью пикселей, поэтому контент отображается суперчетко.</p>
+                            <p>Дисплей имеет технологию ProMotion, которая изменяет частоту от 10 до 120 раз в секунду в зависимости от того, какой отображается контент. Благодаря этому вы сможете наслаждаться суперплавной картинкой, в т.ч. и в играх.</p>
+                            <p>A15 Bionic</p>
+                            <p>Телефон оснащен 6-ядерным процессором с 2 ядрами производительности и 4 ядрами эффективности, который способен выполнять любые операции очень быстро. 5-ядерный графический процессор может обрабатывать графику на 50% быстрее, чем предыдущий айфон.</p>
+
+
+                           
+
+
+                            <div class="product_in_shop">
+
+                                <div class="product_in_shop_block">
+    
+                                    <div class="product_in_shop_block_logo">
+                                        <img src="../images/logo_21vek.jpg" alt="21vek.by" title="21vek.by" width="100%">
+                                
+                                    </div>
+                                
+                                    <div class="product_in_shop_block_info">
+                                        <p>Гарантия 12 месяцев. Без выходных. Собственная курьерская служба. Цена без рассрочки. Более 1 000 000 товаров. Мы работаем для Вас с 2004 года!</p>
+                                    </div>
+                                
+                                    <div class="product_in_shop_block_btn">
+                                        <span class="small_text">в наличии на складе</span>
+                                        <br>
+                                        <span class="bold_text">5799р</span>
+                                        <br>
+                                        <a class="style_button_in_shop" target="_blank" href="https://www.21vek.by/">Перейти в магазин</a>
+                                    </div>
+                                
+                                </div>
+                                
+                                <div class="product_in_shop_block">
+                                
+                                    <div class="product_in_shop_block_logo">
+                                        <img src="../images/logo_5element.jpg" alt="5element.by" title="5element.by" width="100%">
+                                
+                                    </div>
+                                
+                                    <div class="product_in_shop_block_info">
+                                        <p>Гарантия 12 месяцев. Рассрочка 5 месяцев. Рассрочка на 5 месяцев по карте халва. Базовый кредит до 60 месяцев. 20 лет на рынке. Более 100 000 товаров. Самовывоз из любого розничного магазина сети.</p>
+                                    </div>
+                                
+                                    <div class="product_in_shop_block_btn">
+                                        <span class="small_text">в наличии на складе</span>
+                                        <br>
+                                        <span class="bold_text">5199р</span>
+                                        <br>
+                                        <a class="style_button_in_shop" target="_blank" href="https://5element.by/">Перейти в магазин</a>
+                                    </div>
+                                
+                                </div>
+                                
+                                
+                                <div class="product_in_shop_block">
+                                
+                                    <div class="product_in_shop_block_logo">
+                                        <img src="../images/logo_zeon.jpg" alt="Zeon.by" title="Zeon.by" width="100%">
+                                
+                                    </div>
+                                
+                                    <div class="product_in_shop_block_info">
+                                        <p>"Зеон" - интернет-магазин компьютерной, бытовой техники, телевизоров и ноутбуков, а также много другого в Гомеле. В нашем интернет-магазине вы можете заказать технику ведущих мировых производителей по самым лучшим ценам, описания и технические характеристики практически на все предлагаемые товары есть на нашем сайте.</p>
+                                    </div>
+                                
+                                    <div class="product_in_shop_block_btn">
+                                        <span class="small_text">в наличии на складе</span>
+                                        <br>
+                                        <span class="bold_text">5199р</span>
+                                        <br>
+                                        <a class="style_button_in_shop" target="_blank" href="https://www.777555.by/">Перейти в магазин</a>
+                                    </div>
+                                
+                                </div>
+
+
+                                <div class="product_in_shop_block">
+
+                                    <div class="product_in_shop_block_logo">
+                                        <img src="../images/logo_xistore.jpg" alt="Xistore.by" title="Xistore.by" width="100%">
+                                
+                                    </div>
+                                
+                                    <div class="product_in_shop_block_info">
+                                        <p>Гарантия 12 месяцев. Грамотная консультация. Индивидуальный подход к каждому клиенту. Халва, Карта покупок, кредит, наличный и безналичный расчет. Самовывоз.Аксессуары.Возможны услуги: расширенная гарантия, установка/настройка и т.д.</p>
+                                    </div>
+                                
+                                    <div class="product_in_shop_block_btn">
+                                        <span class="small_text">в наличии на складе</span>
+                                        <br>
+                                        <span class="bold_text">5399р</span>
+                                        <br>
+                                        <a class="style_button_in_shop" target="_blank" href="https://xistore.by/">Перейти в магазин</a>
+                                    </div>
+                                
+                                </div>
+                                
+                                
+                                
+                                <div class="product_in_shop_block">
+                                
+                                    <div class="product_in_shop_block_logo">
+                                        <img src="../images/logo_24shop.jpg" alt="24shop.by" title="24shop.by" width="100%">
+                                
+                                    </div>
+                                
+                                    <div class="product_in_shop_block_info">
+                                        <p>Гарантия 12 месяцев.Работаем без выходных. 20 лет на рынке! Более 110 000 товаров. При оплате картами Халва, Карта покупок, SMART-карта, Черепаха - цену и условия уточняйте у оператора.</p>
+                                    </div>
+                                
+                                    <div class="product_in_shop_block_btn">
+                                        <span class="small_text">в наличии на складе</span>
+                                        <br>
+                                        <span class="bold_text">5299р</span>
+                                        <br>
+                                        <a class="style_button_in_shop" target="_blank" href="https://24shop.by/">Перейти в магазин</a>
+                                    </div>
+                                
+                                </div>
+                                
+                                
+                                
+                                <div class="product_in_shop_block">
+                                
+                                    <div class="product_in_shop_block_logo">
+                                        <img src="../images/logo_tehnomir.jpg" alt="Texnomir.by" title="Texnomir.by" width="100%">
+                                
+                                    </div>
+                                
+                                    <div class="product_in_shop_block_info">
+                                        <p>Гарантия 12 месяцев. Грамотная консультация. Самовывоз в центре Минска. Доставляем по всей РБ(до подъезда, в некоторые города доставка до 7 дней) В продаже есть противоударные пленки на все модели, а также стёкла, чехлы. Работаем без выходных. Обрежем sim. Webmoney</p>
+                                    </div>
+                                
+                                    <div class="product_in_shop_block_btn">
+                                        <span class="small_text">в наличии на складе</span>
+                                        <br>
+                                        <span class="bold_text">5299р</span>
+                                        <br>
+                                        <a class="style_button_in_shop" target="_blank" href="http://www.texnomir.by/">Перейти в магазин</a>
+                                    </div>
+                                
+                                </div>
+
+
+    
+                            </div>
+
+
+                        </div>
+
+
+                        <div class="product_characteristics_block1 product_characteristics_style invisible">
+
+                            <div class="product_characteristics_block_left">
+                                
+                                <div class="product_characteristics_block">
+                                    <table class="table_characteristics">
+
+                                        <caption>Экран</caption>
+                                       
+                                        <tr>
+                                            <td>Разрешение экрана</td>
+                                            <td>2778x1284</td>
+                                        </tr>
+    
+                                        <tr>
+                                            <td>Повышенная частота обновления экрана</td>
+                                            <td>120 Гц</td>
+                                        </tr>
+    
+                                        <tr>
+                                            <td>Соотношение сторон экрана</td>
+                                            <td>19.5:9</td>
+                                        </tr>
+    
+                                        <tr>
+                                            <td>Технология экрана</td>
+                                            <td>OLED</td>
+                                        </tr>
+    
+                                        <tr>
+                                            <td>Плотность пикселей</td>
+                                            <td>458 ppi</td>
+                                        </tr>
+    
+                                        <tr>
+                                            <td>Кол-во цветов</td>
+                                            <td>16 миллионов</td>
+                                        </tr>
+    
+                                        <tr>
+                                            <td>Сенсорный экран</td>
+                                            <td>емкостный, мультитач</tr>
+                                        </tr>
+    
+                                        <tr>
+                                            <td>Защита от царапин</td>
+                                            <td>есть (Ceramic Shield)</td>
+                                        </tr>
+                                                   
+                                    </table>
+                                </div>
+
+                                <div class="product_characteristics_block">
+                                    <table class="table_characteristics">
+
+                                        <caption>Процессор</caption>
+                                       
+                                        <tr>
+                                            <td>Платформа</td>
+                                            <td>Apple</td>
+                                        </tr>
+    
+                                        <tr>
+                                            <td>Тип процессора</td>
+                                            <td>Apple A15 Bionic</td>
+                                        </tr>
+    
+                                        <tr>
+                                            <td>Тактовая частота процессора</td>
+                                            <td>3220 МГц</td>
+                                        </tr>
+    
+                                        <tr>
+                                            <td>Количество ядер</td>
+                                            <td>6 (2+4)</td>
+                                        </tr>
+    
+                                        <tr>
+                                            <td>Микроархитектура ЦПУ</td>
+                                            <td>2 Avalanche + 4 Blizzard</td>
+                                        </tr>
+    
+                                        <tr>
+                                            <td>Разрядность процессора</td>
+                                            <td>64 бита</td>
+                                        </tr>
+    
+                                        <tr>
+                                            <td>Техпроцесс</td>
+                                            <td>5 нм</tr>
+                                        </tr>
+    
+                                        <tr>
+                                            <td>Графический ускоритель</td>
+                                            <td>Apple GPU</td>
+                                        </tr>
+                                                   
+                                    </table>
+                                </div>
+
+
+                                <div class="product_characteristics_block">
+                                    <table class="table_characteristics">
+
+                                        <caption>Интерфейсы</caption>
+                                       
+                                        <tr>
+                                            <td>Wi-Fi</td>
+                                            <td>есть</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Bluetooth</td>
+                                            <td>есть</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Версия Bluetooth</td>
+                                            <td>5.0</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>NFC</td>
+                                            <td>есть</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Разъем подключения</td>
+                                            <td>Lightning</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Аудиовыход</td>
+                                            <td>да, Lightning</td>
+                                        </tr>
+    
+                                        
+
+                                        
+
+                                        
+                                        
+                                                   
+                                    </table>
+                                </div>
+
+
+                                
+
+
+                                
+                            </div>
+
+
+                            <div class="product_characteristics_block_right">
+
+
+                                <div class="product_characteristics_block">
+                                    <table class="table_characteristics">
+
+                                        <caption>Основная камера</caption>
+                                       
+                                        <tr>
+                                            <td>Разрешение камеры</td>
+                                            <td>12 Мп</td>
+                                        </tr>
+    
+                                        <tr>
+                                            <td>Дополнительный модуль камеры</td>
+                                            <td>есть, сверхширокоугольный, телеобъектив</td>
+                                        </tr>
+    
+                                        <tr>
+                                            <td>Разрешение дополнительного модуля камеры</td>
+                                            <td>12 Мп (сверхширокоугольный, телеобъектив)</td>
+                                        </tr>
+    
+                                        <tr>
+                                            <td>Диафрагма дополнительного модуля</td>
+                                            <td>ƒ/1.8 (сверхширокоугольный), ƒ/2.8 (телеобъектив)</td>
+                                        </tr>
+    
+                                        <tr>
+                                            <td>Фокусировка</td>
+                                            <td>автоматическая</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Встроенная вспышка</td>
+                                            <td>светодиодная</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Стабилизация изображения</td>
+                                            <td>оптическая</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Оптический зум</td>
+                                            <td>3x</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Максимальное разрешение видео</td>
+                                            <td>3840x2160 (UHD 4K)</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Макс. частота кадров при видеосъемке</td>
+                                            <td>60 fps (4K)</td>
+                                        </tr>
+                                        
+                                                   
+                                    </table>
+                                </div>
+
+
+
+                                <div class="product_characteristics_block">
+                                    <table class="table_characteristics">
+
+                                        <caption>Фронтальная камера</caption>
+                                       
+                                        <tr>
+                                            <td>Разрешение фронтальной камеры</td>
+                                            <td>12 Мп</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Диафрагма</td>
+                                            <td>ƒ/2.2</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Макс. разрешение видео</td>
+                                            <td>3840x2160 (UHD 4K)</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Оптическая стабилизация изображения</td>
+                                            <td>нет</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Встроенная вспышка</td>
+                                            <td>нет</td>
+                                        </tr>
+
+                                    
+                                                   
+                                    </table>
+                                </div>
+
+
+                                
+                            </div>
+
+
+
+
+                        </div>
+
+
+                        
+
+
+    
+    
+                    </div>
+
+                    <div class="catalog_block_button_more">
+                        <button class="button_more_block1 style_button" onclick="openHiddenBlock(catalogBlockInvisible1,buttonMoreBlock1)">Смотреть полностью</button>
+
+                    </div>
+    
+    
+    
+    
+    
+                </div>
+
+
+
+                <div class="catalog_block">
+
+                    <div class="catalog_block_name">
+                        Смартфон Xiaomi 12X 8GB/256GB
+                    </div>
+
+                    <div class="catalog_block_visible">
+    
+                        <div class="catalog_block_visible_img">
+
+                            <div class="img_nav">
+
+                                <img class="img_nav_btn_block2 img_nav_active" src="../images/xiaomi_12x_black1.jpg" alt="Xiaomi 12x" title="Xiaomi 12x" width="100%">
+                                <img class="img_nav_btn_block2" src="../images/xiaomi_12x_black2.jpg" alt="Xiaomi 12x" title="Xiaomi 12x" width="100%">
+                                <img class="img_nav_btn_block2" src="../images/xiaomi_12x_black3.jpg" alt="Xiaomi 12x" title="Xiaomi 12x" width="100%">
+                                <img class="img_nav_btn_block2" src="../images/xiaomi_12x_black4.jpg" alt="Xiaomi 12x" title="Xiaomi 12x" width="100%">
+
+                            </div>
+
+                            <div class="img_show">
+
+                                <img class="img_show_block2" src="../images/xiaomi_12x_black1.jpg" alt="Xiaomi 12x" title="Xiaomi 12x" width="100%">
+                                <img class="img_show_block2 img_invisible" src="../images/xiaomi_12x_black2.jpg" alt="Xiaomi 12x" title="Xiaomi 12x" width="100%">
+                                <img class="img_show_block2 img_invisible" src="../images/xiaomi_12x_black3.jpg" alt="Xiaomi 12x" title="Xiaomi 12x" width="100%">
+                                <img class="img_show_block2 img_invisible" src="../images/xiaomi_12x_black4.jpg" alt="Xiaomi 12x" title="Xiaomi 12x" width="100%">
+
+                            </div>
+
+
+
+                            
+                            
+                        </div>
+    
+                        <div class="catalog_block_visible_info">
+
+                            <span class="characteristics_info">Основные характеристики:</span>
+                            <br><br>
+                            <span class="characteristics_name">Экран:</span> <span class="characteristics_value">6.28 " 1080x2040 пикселей, AMOLED</span>
+                            <br>
+                            <span class="characteristics_name">Процессор:</span> <span class="characteristics_value">Qualcomm Snapdragon 870 3.2 ГГц</span>
+                            <br>
+                            <span class="characteristics_name">Память:</span> <span class="characteristics_value"> ОЗУ 8 ГБ , 256 ГБ</span>
+                            <br>
+                            <span class="characteristics_name">Формат SIM-карты:</span> <span class="characteristics_value">Nano</span>
+                            <br>
+                            <span class="characteristics_name">Количество мегапикселей камеры:</span> <span class="characteristics_value">50 Мп</span>
+                            <br>
+                            <span class="characteristics_name">Емкость аккумулятора:</span> <span class="characteristics_value">4500 мА·ч</span>
+                        </div>
+    
+                        <div class="catalog_block_visible_price">
+                            <span class="small_text">В наличии у четырех продовцов</span>                            
+                            <span class="bold_text">от 2299р</span>
+                        </div>
+    
+    
+    
+    
+    
+    
+                    </div>
+    
+                    <div class="catalog_block_invisible2 catalog_block_invisible_style">
+
+                        <div class="catalog_block_invisible_nav">
+                            <button class="button_product_description_block2 catalog_block_nav_style_button catalog_block_nav_style_button_active" onclick="productDescriptionVisible(productDescriptionBlock2,productCharacteristicsBlock2,buttonProductDescriptionBlock2,buttonProductCharacteristicsBlock2)">О товаре</button>
+                            <button class="button_product_characteristics_block2 catalog_block_nav_style_button" onclick="productCharacteristicsVisible(productDescriptionBlock2,productCharacteristicsBlock2,buttonProductDescriptionBlock2,buttonProductCharacteristicsBlock2)">Характеристики</button>
+
+                        </div>
+
+
+
+
+                        <div class="product_description_block2 product_description_style">
+
+                            <p>Xiaomi 12X 8GB/256GB серый – телефон в стильном корпусе комфортной ширины в 69,9 мм. Такой гаджет удобно держать одной рукой и управлять им. Он получил высокую производительность, великолепный дисплей и отличную камеру. Устройство подходит как для требовательных игр, так и для создания фото- и видеоконтента.</p>
+                            <p>Шедевральный дисплей</p>
+                            <p>Смартфон оснащен AMOLED-экраном с плотностью пикселей 419 ppi, за счет чего создает высокодетализированное и насыщенное изображение. Дисплей способен отображать более 68 миллиардов оттенков и создавать картинку с потрясающей реалистичностью.</p>
+                            <p>Дисплей обновляется на частоте 120 Гц, что подарит плавный скроллинг и высокую четкость самых динамичных сцен.</p>
+                            <p>Профессиональная основная камера</p>
+                            <p>Xiaomi 12X получил широкоугольную камеру на 50 Мп с системой оптической стабилизации изображения. Она создает красивые фото, в которых видны мельчайшие детали, а также плавные видео высокого разрешения – 8К и 4К.</p>
+                            <p>Фронтальная камера снимает в разрешении 32 Мп – ваши селфи будут всегда красивыми. Для нее предусмотрены бьюти-фильтр с ИИ, ночной режим, селфи-таймлапс и другие режимы, которые сделают фото еще более качественными.</p>
+                            <p>Выдающаяся производительность</p>
+                            <p>Мощный процессор Qualcomm Snapdragon 870 способен разгоняться до частоты 3,2 ГГц и воспроизводить требовательные игры со сложной графикой.</p>
+                            <p>Для отвода тепла используется система жидкостного охлаждения с испарительной камерой площадью 2600 кв. мм. Благодаря ей устройство не перегревается и сохраняет высокую производительность на протяжении многих часов.</p>
+                            <p>Мощный аккумулятор</p>
+                            <p>Батарея емкостью в 4500 мАч подарит долгое время автономной работы. Зарядное устройство 67 Вт зарядит аккумулятор с 0 до 100% всего за 39 минут.</p>
+                           
+
+                           
+
+
+                            <div class="product_in_shop">
+
+                                <div class="product_in_shop_block">
+
+                                    <div class="product_in_shop_block_logo">
+                                        <img src="../images/logo_zeon.jpg" alt="Zeon.by" title="Zeon.by" width="100%">
+                                
+                                    </div>
+                                
+                                    <div class="product_in_shop_block_info">
+                                        <p>"Зеон" - интернет-магазин компьютерной, бытовой техники, телевизоров и ноутбуков, а также много другого в Гомеле. В нашем интернет-магазине вы можете заказать технику ведущих мировых производителей по самым лучшим ценам, описания и технические характеристики практически на все предлагаемые товары есть на нашем сайте.</p>
+                                    </div>
+                                
+                                    <div class="product_in_shop_block_btn">
+                                        <span class="small_text">в наличии на складе</span>
+                                        <br>
+                                        <span class="bold_text">2349р</span>
+                                        <br>
+                                        <a class="style_button_in_shop" target="_blank" href="https://www.777555.by/">Перейти в магазин</a>
+                                    </div>
+                                
+                                </div>
+                                
+                                <div class="product_in_shop_block">
+                                
+                                    <div class="product_in_shop_block_logo">
+                                        <img src="../images/logo_imarket.jpg" alt="Imarket.by" title="Imarket.by" width="100%">
+                                
+                                    </div>
+                                
+                                    <div class="product_in_shop_block_info">
+                                        <p>Гарантия 12 месяцев. Более 12 лет на рынке. Работаем без выходных. Качественный сервис, профессиональная консультация ! Запечатан. Обрежем симкарту. В наличии: 5D стекла , чехлы и бампера, карты памяти, Power Bank.</p>
+                                    </div>
+                                
+                                    <div class="product_in_shop_block_btn">
+                                        <span class="small_text">в наличии на складе</span>
+                                        <br>
+                                        <span class="bold_text">2499р</span>
+                                        <br>
+                                        <a class="style_button_in_shop" target="_blank" href="https://imarket.by/">Перейти в магазин</a>
+                                    </div>
+                                
+                                </div>
+                                
+                                
+                                
+                                
+                                
+                                <div class="product_in_shop_block">
+                                
+                                    <div class="product_in_shop_block_logo">
+                                        <img src="../images/logo_xistore.jpg" alt="Xistore.by" title="Xistore.by" width="100%">
+                                
+                                    </div>
+                                
+                                    <div class="product_in_shop_block_info">
+                                        <p>Гарантия 12 месяцев. Грамотная консультация. Индивидуальный подход к каждому клиенту. Халва, Карта покупок, кредит, наличный и безналичный расчет. Самовывоз.Аксессуары.Возможны услуги: расширенная гарантия, установка/настройка и т.д.</p>
+                                    </div>
+                                
+                                    <div class="product_in_shop_block_btn">
+                                        <span class="small_text">в наличии на складе</span>
+                                        <br>
+                                        <span class="bold_text">2399р</span>
+                                        <br>
+                                        <a class="style_button_in_shop" target="_blank" href="https://xistore.by/">Перейти в магазин</a>
+                                    </div>
+                                
+                                </div>
+                                
+                                
+                                
+                                <div class="product_in_shop_block">
+                                
+                                    <div class="product_in_shop_block_logo">
+                                        <img src="../images/logo_24shop.jpg" alt="24shop.by" title="24shop.by" width="100%">
+                                
+                                    </div>
+                                
+                                    <div class="product_in_shop_block_info">
+                                        <p>Гарантия 12 месяцев.Работаем без выходных. 20 лет на рынке! Более 110 000 товаров. При оплате картами Халва, Карта покупок, SMART-карта, Черепаха - цену и условия уточняйте у оператора.</p>
+                                    </div>
+                                
+                                    <div class="product_in_shop_block_btn">
+                                        <span class="small_text">в наличии на складе</span>
+                                        <br>
+                                        <span class="bold_text">2299р</span>
+                                        <br>
+                                        <a class="style_button_in_shop" target="_blank" href="https://24shop.by/">Перейти в магазин</a>
+                                    </div>
+                                
+                                </div>
+    
+                            </div>
+
+
+                        </div>
+
+
+                        <div class="product_characteristics_block2 product_characteristics_style invisible">
+
+                            <div class="product_characteristics_block_left">
+                                
+                                <div class="product_characteristics_block">
+                                    <table class="table_characteristics">
+
+                                        <caption>Экран</caption>
+                                       
+                                        <tr>
+                                            <td>Диагональ экрана</td>
+                                            <td>6.28  "</td>
+                                        </tr>
+    
+                                        <tr>
+                                            <td>Технология экрана</td>
+                                            <td>AMOLED</td>
+                                        </tr>
+    
+                                        <tr>
+                                            <td>Соотношение сторон экрана</td>
+                                            <td>20 : 9</td>
+                                        </tr>
+    
+                                        <tr>
+                                            <td>Разрешение экрана</td>
+                                            <td>1080x2040  пикселей</td>
+                                        </tr>
+    
+                                        <tr>
+                                            <td>Плотность пикселей</td>
+                                            <td>419  ppi</td>
+                                        </tr>
+    
+                                        <tr>
+                                            <td>Сенсорный экран</td>
+                                            <td>Да</td>
+                                        </tr>
+    
+                                        <tr>
+                                            <td>Тип сенсорного экрана</td>
+                                            <td>Емкостный</td>
+                                        </tr>
+    
+                                        <tr>
+                                            <td>Мультитач</td>
+                                            <td>Да</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Защита от царапин </td>
+                                            <td>Да</td>
+                                        </tr>
+                                                   
+                                    </table>
+                                </div>
+
+                                <div class="product_characteristics_block">
+                                    <table class="table_characteristics">
+
+                                        <caption>Процессор</caption>
+                                       
+                                        <tr>
+                                            <td>Процессор</td>
+                                            <td>Qualcomm Snapdragon 870</td>
+                                        </tr>
+    
+                                        <tr>
+                                            <td>Количество ядер процессора</td>
+                                            <td>8  ядр.</td>
+                                        </tr>
+    
+                                        <tr>
+                                            <td>Частота процессора</td>
+                                            <td>3.2  ГГц</td>
+                                        </tr>
+    
+                                                   
+                                    </table>
+                                </div>
+
+
+                                <div class="product_characteristics_block">
+                                    <table class="table_characteristics">
+
+                                        <caption>Интерфейсы</caption>
+                                       
+                                        <tr>
+                                            <td>Wi-Fi</td>
+                                            <td>802.11ac</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Bluetooth</td>
+                                            <td>есть</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Версия Bluetooth</td>
+                                            <td>5.1</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>NFC</td>
+                                            <td>есть</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>USB</td>
+                                            <td>USB Type-C</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Выход на наушники</td>
+                                            <td>USB Type-C</td>
+                                        </tr>
+    
+                                        <tr>
+                                            <td>IrDa</td>
+                                            <td>Да</td>
+                                        </tr>
+
+                                                                               
+                                        
+                                                   
+                                    </table>
+                                </div>
+
+                                <div class="product_characteristics_block">
+                                    <table class="table_characteristics">
+
+                                        <caption>Память</caption>
+                                       
+                                        <tr>
+                                            <td>Объем встроенной памяти</td>
+                                            <td>256 ГБ</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Объем оперативной памяти </td>
+                                            <td>8 ГБ</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Поддержка карты памяти</td>
+                                            <td>Нет</td>
+                                        </tr>                              
+                                                                             
+                                                                                           
+                                    </table>
+                                </div>
+
+
+                                
+
+
+                                
+                            </div>
+
+
+                            <div class="product_characteristics_block_right">
+
+
+                                <div class="product_characteristics_block">
+                                    <table class="table_characteristics">
+
+                                        <caption>Камера</caption>
+                                       
+                                        <tr>
+                                            <td>Встроенная камера</td>
+                                            <td>Да</td>
+                                        </tr>
+    
+                                        <tr>
+                                            <td>Количество мегапикселей камеры</td>
+                                            <td>50  Мп</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Количество мегапикселей доп. камеры </td>
+                                            <td>13 + 5  Мп</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Функциональные особенности камеры </td>
+                                            <td>Автофокусировка, Встроенная вспышка</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Максимальное разрешение при записи видео</td>
+                                            <td>7680 x 4320  пикселей</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Максимальная частота кадров при видеосъемке</td>
+                                            <td>60  кадров/с</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Фронтальная камера</td>
+                                            <td>Да</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Количество мегапикселей фронтальной камеры</td>
+                                            <td>32  Мп</td>
+                                        </tr>
+
+                                        
+                                        
+                                                   
+                                    </table>
+                                </div>
+
+
+
+                                <div class="product_characteristics_block">
+                                    <table class="table_characteristics">
+
+                                        <caption>Функциональные особенности</caption>
+                                       
+                                        <tr>
+                                            <td>Навигация</td>
+                                            <td>GPS, ГЛОНАСС, Beidou, Galileo, A-GPS</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Датчики и сенсоры</td>
+                                            <td>Акселерометр, Гироскоп, Датчик освещенности, Датчик приближения, Компас</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Быстрая зарядка</td>
+                                            <td>Да</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Сканер отпечатков пальцев</td>
+                                            <td>Да</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Тип аккумулятора</td>
+                                            <td>Li-Ion</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Емкость аккумулятора</td>
+                                            <td>4500  мА·ч</td>
+                                        </tr>
+
+                                    
+                                                   
+                                    </table>
+                                </div>
+
+
+                                
+                            </div>
+
+
+
+
+                        </div>
+
+    
+    
+                    </div>
+
+                    <div class="catalog_block_button_more">
+                        <button class="button_more_block2 style_button" onclick="openHiddenBlock(catalogBlockInvisible2,buttonMoreBlock2)">Смотреть полностью</button>
+
+                    </div>
+    
+    
+    
+    
+    
+                </div>
+    
+    
+                <div class="catalog_block">
+
+                    <div class="catalog_block_name">
+                        Смартфон Xiaomi Redmi Note 11 Pro 5G 8GB/128GB
+                    </div>
+
+                    <div class="catalog_block_visible">
+    
+                        <div class="catalog_block_visible_img">
+
+                            <div class="img_nav">
+
+                                <img class="img_nav_btn_block3 img_nav_active" src="../images/redmi_note11_pro1.jpg" alt="Xiaomi Redmi Note 11" title="Xiaomi Redmi Note 11" width="100%">
+                                <img class="img_nav_btn_block3" src="../images/redmi_note11_pro2.jpg" alt="Xiaomi Redmi Note 11" title="Xiaomi Redmi Note 11" width="100%">
+                                <img class="img_nav_btn_block3" src="../images/redmi_note11_pro3.jpg" alt="Xiaomi Redmi Note 11" title="Xiaomi Redmi Note 11" width="100%">
+                                <img class="img_nav_btn_block3" src="../images/redmi_note11_pro4.jpg" alt="Xiaomi Redmi Note 11" title="Xiaomi Redmi Note 11" width="100%">
+
+                            </div>
+
+                            <div class="img_show">
+
+                                <img class="img_show_block3" src="../images/redmi_note11_pro1.jpg" alt="Xiaomi Redmi Note 11" title="Xiaomi Redmi Note 11" width="100%">
+                                <img class="img_show_block3 img_invisible" src="../images/redmi_note11_pro2.jpg" alt="Xiaomi Redmi Note 11" title="Xiaomi Redmi Note 11" width="100%">
+                                <img class="img_show_block3 img_invisible" src="../images/redmi_note11_pro3.jpg" alt="Xiaomi Redmi Note 11" title="Xiaomi Redmi Note 11" width="100%">
+                                <img class="img_show_block3 img_invisible" src="../images/redmi_note11_pro4.jpg" alt="Xiaomi Redmi Note 11" title="Xiaomi Redmi Note 11" width="100%">
+
+                            </div>
+
+
+
+                            
+                            
+                        </div>
+    
+                        <div class="catalog_block_visible_info">
+
+                            <span class="characteristics_info">Основные характеристики:</span>
+                            <br><br>
+                            <span class="characteristics_name">Экран:</span> <span class="characteristics_value">6.67 " 1080x2400 пикселей, AMOLED</span>
+                            <br>
+                            <span class="characteristics_name">Процессор:</span> <span class="characteristics_value">Qualcomm Snapdragon 695 2.2 ГГц</span>
+                            <br>
+                            <span class="characteristics_name">Память:</span> <span class="characteristics_value"> ОЗУ 8 ГБ , 128 ГБ</span>
+                            <br>
+                            <span class="characteristics_name">Формат SIM-карты:</span> <span class="characteristics_value">Nano</span>
+                            <br>
+                            <span class="characteristics_name">Количество мегапикселей камеры:</span> <span class="characteristics_value">108 Мп</span>
+                            <br>
+                            <span class="characteristics_name">Емкость аккумулятора:</span> <span class="characteristics_value">5000 мА·ч</span>
+                        </div>
+    
+                        <div class="catalog_block_visible_price">
+                            <span class="small_text">В наличии у пяти продовцов</span>                            
+                            <span class="bold_text">от 1099р</span>
+                        </div>
+    
+    
+    
+    
+    
+    
+                    </div>
+    
+                    <div class="catalog_block_invisible3 catalog_block_invisible_style">
+
+                        <div class="catalog_block_invisible_nav">
+                            <button class="button_product_description_block3 catalog_block_nav_style_button catalog_block_nav_style_button_active" onclick="productDescriptionVisible(productDescriptionBlock3,productCharacteristicsBlock3,buttonProductDescriptionBlock3,buttonProductCharacteristicsBlock3)">О товаре</button>
+                            <button class="button_product_characteristics_block3 catalog_block_nav_style_button" onclick="productCharacteristicsVisible(productDescriptionBlock3,productCharacteristicsBlock3,buttonProductDescriptionBlock3,buttonProductCharacteristicsBlock3)">Характеристики</button>
+
+                        </div>
+
+
+
+
+                        <div class="product_description_block3 product_description_style">
+
+                            <p>Смартфон Xiaomi Redmi Note 11 Pro 5G 8GB/128GB Atlantic Blue отличается быстрой работой, сверхчеткой камерой и суперплавным экраном. Такая модель отлично подходит для игр, создания фото- и видеоконтента и, конечно же, общения.</p>
+                            <p>Яркий AMOLED-дисплей</p>
+                            <p>Смартфон оснащен большим экраном, матрица которого получила цветовой охват DCI-P3. Она создает изображение с насыщенными оттенками и глубоким черным цветом.</p>
+                            <p>Экран обновляется на частоте до 120 Гц. Это значит, что картинка будет очень плавной во время скроллинга и в самых динамичных сценах.</p>
+                            <p>Мощная система камер</p>
+                            <p>Основной сенсор камеры получил разрешение в 108 Мп. У нее большой сенсор – 1/1,52, который собирает много света. Это значит, что ваши фотографии будут отличаться высоким качеством, в т. ч. и в условиях плохого освещения.</p>
+                            <p>Ультраширокоугольная камера на 119° позволит создавать групповые фото и пейзажи. Макромодуль подарит красивые незамыленные фото объектов с близкого расстояния.</p>
+                            <p>За быструю работу телефона отвечают процессор Qualcomm Snapdragon 695 и 8 ГБ оперативной памяти. Мощности смартфона достаточно, чтобы запускать требовательные игры, редактировать фото и смотреть потоковое видео в высоком разрешении.</p>
+                            <p>Телефон не греется под высокими нагрузками. Система охлаждения, состоящая из нескольких слоев графита и медной фольги, быстро охлаждает основные элементы.</p>
+                            <p>Одного заряда аккумулятора емкостью 5000 мАч хватит на целый день при активном использовании гаджета. Зарядное устройство на 67 Вт зарядит батарею до 100% за 42 минуты. При этом 15-минутной зарядки будет достаточно, чтобы получить наполовину заряженную батарею.</p>
+                        
+
+                           
+
+
+                            <div class="product_in_shop">
+
+                                <div class="product_in_shop_block">
+    
+                                    <div class="product_in_shop_block_logo">
+                                        <img src="../images/logo_21vek.jpg" alt="21vek.by" title="21vek.by" width="100%">
+                                
+                                    </div>
+                                
+                                    <div class="product_in_shop_block_info">
+                                        <p>Гарантия 12 месяцев. Без выходных. Собственная курьерская служба. Цена без рассрочки. Более 1 000 000 товаров. Мы работаем для Вас с 2004 года!</p>
+                                    </div>
+                                
+                                    <div class="product_in_shop_block_btn">
+                                        <span class="small_text">в наличии на складе</span>
+                                        <br>
+                                        <span class="bold_text">1399р</span>
+                                        <br>
+                                        <a class="style_button_in_shop" target="_blank" href="https://www.21vek.by/">Перейти в магазин</a>
+                                    </div>
+                                
+                                </div>
+                                
+                                <div class="product_in_shop_block">
+                                
+                                    <div class="product_in_shop_block_logo">
+                                        <img src="../images/logo_5element.jpg" alt="5element.by" title="5element.by" width="100%">
+                                
+                                    </div>
+                                
+                                    <div class="product_in_shop_block_info">
+                                        <p>Гарантия 12 месяцев. Рассрочка 5 месяцев. Рассрочка на 5 месяцев по карте халва. Базовый кредит до 60 месяцев. 20 лет на рынке. Более 100 000 товаров. Самовывоз из любого розничного магазина сети.</p>
+                                    </div>
+                                
+                                    <div class="product_in_shop_block_btn">
+                                        <span class="small_text">в наличии на складе</span>
+                                        <br>
+                                        <span class="bold_text">1199р</span>
+                                        <br>
+                                        <a class="style_button_in_shop" target="_blank" href="https://5element.by/">Перейти в магазин</a>
+                                    </div>
+                                
+                                </div>
+
+                                <div class="product_in_shop_block">
+
+                                    <div class="product_in_shop_block_logo">
+                                        <img src="../images/logo_xistore.jpg" alt="Xistore.by" title="Xistore.by" width="100%">
+                                
+                                    </div>
+                                
+                                    <div class="product_in_shop_block_info">
+                                        <p>Гарантия 12 месяцев. Грамотная консультация. Индивидуальный подход к каждому клиенту. Халва, Карта покупок, кредит, наличный и безналичный расчет. Самовывоз.Аксессуары.Возможны услуги: расширенная гарантия, установка/настройка и т.д.</p>
+                                    </div>
+                                
+                                    <div class="product_in_shop_block_btn">
+                                        <span class="small_text">в наличии на складе</span>
+                                        <br>
+                                        <span class="bold_text">1199р</span>
+                                        <br>
+                                        <a class="style_button_in_shop" target="_blank" href="https://xistore.by/">Перейти в магазин</a>
+                                    </div>
+                                
+                                </div>
+
+                                <div class="product_in_shop_block">
+
+                                    <div class="product_in_shop_block_logo">
+                                        <img src="../images/logo_xistore.jpg" alt="Xistore.by" title="Xistore.by" width="100%">
+                                
+                                    </div>
+                                
+                                    <div class="product_in_shop_block_info">
+                                        <p>Гарантия 12 месяцев. Грамотная консультация. Индивидуальный подход к каждому клиенту. Халва, Карта покупок, кредит, наличный и безналичный расчет. Самовывоз.Аксессуары.Возможны услуги: расширенная гарантия, установка/настройка и т.д.</p>
+                                    </div>
+                                
+                                    <div class="product_in_shop_block_btn">
+                                        <span class="small_text">в наличии на складе</span>
+                                        <br>
+                                        <span class="bold_text">1099р</span>
+                                        <br>
+                                        <a class="style_button_in_shop" target="_blank" href="https://xistore.by/">Перейти в магазин</a>
+                                    </div>
+                                
+                                </div>                               
+                                                                              
+                                
+                                <div class="product_in_shop_block">
+                                
+                                    <div class="product_in_shop_block_logo">
+                                        <img src="../images/logo_tehnomir.jpg" alt="Texnomir.by" title="Texnomir.by" width="100%">
+                                
+                                    </div>
+                                
+                                    <div class="product_in_shop_block_info">
+                                        <p>Гарантия 12 месяцев. Грамотная консультация. Самовывоз в центре Минска. Доставляем по всей РБ(до подъезда, в некоторые города доставка до 7 дней) В продаже есть противоударные пленки на все модели, а также стёкла, чехлы. Работаем без выходных. Обрежем sim. Webmoney</p>
+                                    </div>
+                                
+                                    <div class="product_in_shop_block_btn">
+                                        <span class="small_text">в наличии на складе</span>
+                                        <br>
+                                        <span class="bold_text">1450р</span>
+                                        <br>
+                                        <a class="style_button_in_shop" target="_blank" href="http://www.texnomir.by/">Перейти в магазин</a>
+                                    </div>
+                                
+                                </div>
+
+                                
+    
+                            </div>
+
+
+                        </div>
+
+
+                        <div class="product_characteristics_block3 product_characteristics_style invisible">
+
+                            <div class="product_characteristics_block_left">
+                                
+                                <div class="product_characteristics_block">
+                                    <table class="table_characteristics">
+
+                                        <caption>Экран</caption>
+                                       
+                                        <tr>
+                                            <td>Диагональ экрана</td>
+                                            <td>6.67  "</td>
+                                        </tr>
+    
+                                        <tr>
+                                            <td>Технология экрана</td>
+                                            <td>AMOLED</td>
+                                        </tr>
+    
+                                        <tr>
+                                            <td>Соотношение сторон экрана</td>
+                                            <td>20 : 9</td>
+                                        </tr>
+    
+                                        <tr>
+                                            <td>Разрешение экрана</td>
+                                            <td>1080x2400  пикселей</td>
+                                        </tr>
+    
+                                        <tr>
+                                            <td>Плотность пикселей</td>
+                                            <td>395  ppi</td>
+                                        </tr>
+    
+                                        <tr>
+                                            <td>Сенсорный экран</td>
+                                            <td>Да</td>
+                                        </tr>
+    
+                                        <tr>
+                                            <td>Тип сенсорного экрана</td>
+                                            <td>Емкостный</td>
+                                        </tr>
+    
+                                        <tr>
+                                            <td>Мультитач</td>
+                                            <td>Да</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Защита от царапин </td>
+                                            <td>Да</td>
+                                        </tr>
+                                                   
+                                    </table>
+                                </div>
+
+                                <div class="product_characteristics_block">
+                                    <table class="table_characteristics">
+
+                                        <caption>Процессор</caption>
+                                       
+                                        <tr>
+                                            <td>Процессор</td>
+                                            <td>Qualcomm Snapdragon 695</td>
+                                        </tr>
+    
+                                        <tr>
+                                            <td>Количество ядер процессора</td>
+                                            <td>8  ядр.</td>
+                                        </tr>
+    
+                                        <tr>
+                                            <td>Частота процессора</td>
+                                            <td>2.2  ГГц</td>
+                                        </tr>
+    
+                                                   
+                                    </table>
+                                </div>
+
+
+                                <div class="product_characteristics_block">
+                                    <table class="table_characteristics">
+
+                                        <caption>Интерфейсы</caption>
+                                       
+                                        <tr>
+                                            <td>Wi-Fi</td>
+                                            <td>802.11ac</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Bluetooth</td>
+                                            <td>есть</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Версия Bluetooth</td>
+                                            <td>5.1</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>NFC</td>
+                                            <td>есть</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>USB</td>
+                                            <td>USB Type-C</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Выход на наушники</td>
+                                            <td>jack 3.5 мм</td>
+                                        </tr>
+    
+                                        <tr>
+                                            <td>IrDa</td>
+                                            <td>Да</td>
+                                        </tr>
+
+                                                                               
+                                        
+                                                   
+                                    </table>
+                                </div>
+
+                                <div class="product_characteristics_block">
+                                    <table class="table_characteristics">
+
+                                        <caption>Память</caption>
+                                       
+                                        <tr>
+                                            <td>Объем встроенной памяти</td>
+                                            <td>128 ГБ</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Объем оперативной памяти </td>
+                                            <td>8 ГБ</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Поддержка карты памяти</td>
+                                            <td>microSDXC, microSDHC, microSD</td>
+                                        </tr>                              
+                                                                             
+                                                                                           
+                                    </table>
+                                </div>
+
+
+                                
+
+
+                                
+                            </div>
+
+
+                            <div class="product_characteristics_block_right">
+
+
+                                <div class="product_characteristics_block">
+                                    <table class="table_characteristics">
+
+                                        <caption>Камера</caption>
+                                       
+                                        <tr>
+                                            <td>Встроенная камера</td>
+                                            <td>Да</td>
+                                        </tr>
+    
+                                        <tr>
+                                            <td>Количество мегапикселей камеры</td>
+                                            <td>108  Мп</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Количество мегапикселей доп. камеры </td>
+                                            <td>8 + 2  Мп</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Функциональные особенности камеры </td>
+                                            <td>Автофокусировка, Встроенная вспышка</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Максимальное разрешение при записи видео</td>
+                                            <td>1920x1080 (Full HD)  пикселей</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Максимальная частота кадров при видеосъемке</td>
+                                            <td>30  кадров/с</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Фронтальная камера</td>
+                                            <td>Да</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Количество мегапикселей фронтальной камеры</td>
+                                            <td>16  Мп</td>
+                                        </tr>
+
+                                        
+                                        
+                                                   
+                                    </table>
+                                </div>
+
+
+
+                                <div class="product_characteristics_block">
+                                    <table class="table_characteristics">
+
+                                        <caption>Функциональные особенности</caption>
+                                       
+                                        <tr>
+                                            <td>Навигация</td>
+                                            <td>GPS, ГЛОНАСС, Beidou</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Датчики и сенсоры</td>
+                                            <td>Акселерометр, Гироскоп, Датчик освещенности, Датчик приближения</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Быстрая зарядка</td>
+                                            <td>Да</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Сканер отпечатков пальцев</td>
+                                            <td>Да</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Тип аккумулятора</td>
+                                            <td>Li-Ion</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Емкость аккумулятора</td>
+                                            <td>5000  мА·ч</td>
+                                        </tr>
+
+                                    
+                                                   
+                                    </table>
+                                </div>
+
+
+                                
+                            </div>
+
+
+
+
+                        </div>
+
+    
+    
+                    </div>
+
+                    <div class="catalog_block_button_more">
+                        <button class="button_more_block3 style_button" onclick="openHiddenBlock(catalogBlockInvisible3,buttonMoreBlock3)">Смотреть полностью</button>
+
+                    </div>
+    
+    
+    
+    
+    
+                </div>
+    
+    
+
+            </div>
+
+
+            <div class="button_up" onclick='upTop()'>
+                <img src="../images/icon_btn_up.png" alt="На верх" title="На верх" width="100%">
+
+            </div>
+
+
+
+
+        </main>
+
+
+        <footer class="footer">
+
+            <div class="footer_subscription">
+
+                <div class="footer_subscription_text">
+
+                    <img style="float:left; margin-right: 20px;" src="../images/logo_subscription.png" alt="subscription" title="Подпишитесь на нашу рассылку" width="40px">
+                    <span>Подпишитесь и <strong>получайте больше скидок</strong> <br> на весь ассортимент наших товаров!</span>
+                    
+                </div>
+
+                <div class="footer_subscription_btn">
+
+                    <input class="input_subscription" type="text" placeholder="Введите почту">
+                    <button class="button_subscription">Подписаться</button>
+
+                </div>                           
+                
+            </div>
+
+            <div class="container">
+            
+                <div class="footer_main">
+
+                    <div class="contacts">                     
+                                                
+                        <ul>
+                            <li>Контактная информация:</li>
+                            <li><img src="../images/logo_phone.png" alt="phone" title="Наш номер телефона" width="15px"> +375 (xx) 0-000-000</li>
+                            <li><img src="../images/logo_a1.png" alt="a1" title="Наш номер телефона A1" width="15px"> +375 (xx) 0-000-000</li>
+                            <li><img src="../images/logo_email.png" alt="email" title="Наша электронная почта" width="15px"> pro@procatalog.by</li>
+                            <li><img src="../images/logo_address.png" alt="address" title="Наш адрес" width="15px"> Беларусь, Гомель, Речицкий проспект 80, оф.123</li>
+                        </ul>
+    
+    
+                    </div>
+
+
+                    <div class="catalog">                     
+                                                
+                        <ul>
+                            <li>Каталог:</li>
+                            <li><a href="notebook.html"><img style="float: left;" src="../images/icon_notebook.png" alt="Ноутбуки" title="Ноутбуки" width="20px"> Ноутбуки</a></li>                            
+                            <li><a href="smartphone.html"><img style="float: left;" src="../images/icon_smartphone.png" alt="Смартфоны" title="Смартфоны" width="20px">Смартфоны</a></li>
+                            <li><a href="tablet.html"><img style="float: left;" src="../images/icon_tablet.png" alt="Планшеты" title="Планшеты" width="20px">Планшеты</a></li>
+                           
+                        </ul>
+    
+    
+                    </div>
+
+
+
+
+
+
+
+
+    
+                    <div class="payment">                       
+
+    
+                       <ul>
+                            <li>Способы оплаты:</li>
+                            
+                            <li><img src="../images/logo_mastercard1.png" alt="Mastercard" title="Mastercard" width="55px"><img src="../images/logo_visa1.png" alt="Visa" title="Visa" width="70px"><img src="../images/logo_visa2.png" alt="Visa" title="Visa" width="60px"></li>
+                           
+                            <li><img src="../images/logo_erip.png" alt="Erip" title="Ерип" width="100px"></li>
+                            <li><img src="../images/logo_webpay.png" alt="Webpay" title="Webpay" width="150px"></li>
+                            
+                        </ul>
+    
+    
+    
+                    </div>
+    
+    
+    
+    
+                    <div class="mobile_app">                       
+    
+                        <ul>
+                            <li>Мобильные приложения:</li>
+                            <li><a href="https://play.google.com/" target="_blank"><img src="../images/logo_google_play.png" alt="Доступно в Google Play" title="Доступно в Google Play" width="140px"></a></li>
+                            <li><a href="https://www.apple.com/ru/app-store/" target="_blank"><img src="../images/logo_app_store.png" alt="Доступно в App Store" title="Доступно в App Store" width="140px"></a></li>
+                            <li><a href="https://consumer.huawei.com/by/mobileservices/appgallery/" target="_blank"><img src="../images/logo_app_gallery.png" alt="Доступно в AppGallery" title="Доступно в AppGallery" width="140px"></a></li>
+                        </ul>
+                        
+                    </div>  
+
+
+
+
+                </div>
+
+
+                <div class="social_networks">
+
+                    <a class="social_networks_style youtube" href="https://www.youtube.com/" target="_blank"><img src="../images/logo_youtube2.png" alt="YouTube" title="YouTube" width="30px"></a>
+                    <a class="social_networks_style vk" href="https://vk.com/" target="_blank"><img src="../images/logo_vk2.png" alt="Vkontakte" title="Vkontakte" width="30px"></a>
+                    <a class="social_networks_style inst" href="https://www.instagram.com/" target="_blank"><img src="../images/logo_instagram2.png" alt="Instagram" title="Instagram" width="30px"></a>
+                    <a class="social_networks_style telegram" href="https://telegram.org/" target="_blank"><img src="../images/logo_telegram2.png" alt="Telegram" title="Telegram" width="30px"></a>
+                    <a class="social_networks_style viber" href="https://www.viber.com/ru/" target="_blank"><img src="../images/logo_viber2.png" alt="Viber" title="Viber" width="30px"></a>
+                    
+                </div>
+    
+                <div class="footer_info">
+    
+                    <span>2022 &#169; ProCatalog — онлайн-каталог товаров. <br> Все права защищены.</span>
+    
+                </div>   
+
+
+
+
+            </div>
+
+            
+
+               
+
+
+
+
+        </footer>
+
+
+
+           
+
+        
+
+    </div>
+
+<script src="../js/script.js"></script>
+
+
+
+    
+</body>
+</html>
